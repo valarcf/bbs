@@ -14,7 +14,7 @@ public class DB{
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String user = "root";
-            String pwd = "12345678xh";
+            String pwd = "root";
             String url = "jdbc:mysql://localhost:3306/test";
             conn = DriverManager.getConnection(url,user,pwd);
         } catch (Exception e) {
